@@ -38,7 +38,7 @@ function ctrl_c() {
 if [ -z $1 ] || [ -z $4 ]
 then
 
-	echo "vprsync.sh (c) 2019 Veeam Software adam.bergh@veeam.com"
+	echo "vpscp.sh (c) 2019 Veeam Software adam.bergh@veeam.com"
 	echo ""
 	echo "usage: vpscp.sh <source d1rectory> <target server> <target directory> <number of threads>"
 	echo "This script runs parallel scp operation from source to destination"
